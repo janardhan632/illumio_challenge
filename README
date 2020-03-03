@@ -1,0 +1,14 @@
+Run command:
+sh test_script.sh
+
+I ran the following set of test cases and tested the code:
+Positive tests are in files positive_test1, and positive_test2
+Negative tests are in file negative_test1
+
+positive_test1 will check the valid url taken from user while prompting for 'new target url' and will run a dummy query
+positive_test1 will check the valid url taken from user while initialization and will run a dummy query
+
+negative_test1 will print an error when we ran a query with no valid url, and it shows the session terminated when we reach max. no. of tries are reached
+
+I would add more test cases if I have more time
+
